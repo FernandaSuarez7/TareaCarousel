@@ -1,0 +1,98 @@
+:root {
+    --color-grisClaro: #F5F5F5;
+    --color-negro: #303030;
+    --amarillo: #FFD83B;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.ancho-maximo {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.espaciado {
+    padding: 15px;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.seccion-personal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.bloque-texto {
+    flex: 1 1 280px;
+}
+
+.bloque-texto h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.bloque-texto h3 {
+    font-size: 18px;
+    color: #1f5bd8;
+    margin-bottom: 20px;
+}
+
+.bloque-texto p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 280px;
+}
+
+.controles-flechas {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-carrusel {
+    flex: 2 1 400px;
+}
+
+.nombre-persona {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #111;
+    text-align: center;
+}
+
+.cargo-persona {
+    font-size: 13px;
+    color: #777;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.foto-persona {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+}
+
+.foto-persona img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Tarea 4 .- Maquetación Carousel con Javascript</title>
+</head>
+
+<body>
+    <section class="seccion-personal ancho-maximo espaciado">
+        <div class="bloque-texto">
+            <h2>OUR TEAM</h2>
+            <h3>PROFESSIONAL PC REPAIR <br> TEAM</h3>
+            <p>
+                Since our establishment, we have gathered a team of dedicated PC
+                repair professionals.
+            </p>
+
+            <div class="controles-flechas">
+                <a href="#" id="back-button" class="flecha flecha-amarilla">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
+                <a href="#" id="forward-button" class="flecha flecha-amarilla">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="bloque-carrusel">
+            <section id="carousel">
+                <div id="slide-container">
+                    <article class="tarjeta-persona">
+                        <figure class="foto-persona">
+                            <img src="imagenes/foto1.jpg" alt="John Tuff">
+                        </figure>
+                        <h4 class="nombre-persona">John Tuff</h4>
+                        <p class="cargo-persona">Field Technician</p>
+                    </article>
+
+                    <article class="tarjeta-persona">
+                        <figure class="foto-persona">
+                            <img src="imagenes/foto2.png" alt="Frank McMillan">
+                        </figure>
+                        <h4 class="nombre-persona">Frank McMillan</h4>
+                        <p class="cargo-persona">General Manager</p>
+                    </article>
+
+                    <article class="tarjeta-persona">
+                        <figure class="foto-persona">
+                            <img src="imagenes/foto3.jpg" alt="John Smith">
+                        </figure>
+                        <h4 class="nombre-persona">John Smith</h4>
+                        <p class="cargo-persona">Field Technician</p>
+                    </article>
+
+                    <article class="tarjeta-persona">
+                        <figure class="foto-persona">
+                            <img src="imagenes/foto4.jpg" alt="Robert Miller">
+                        </figure>
+                        <h4 class="nombre-persona">Robert Miller</h4>
+                        <p class="cargo-persona">Field Technician</p>
+                    </article>
+
+                    <article class="tarjeta-persona">
+                        <figure class="foto-persona">
+                            <img src="imagenes/foto5.jpg" alt="Kevin Brown">
+                        </figure>
+                        <h4 class="nombre-persona">Kevin Brown</h4>
+                        <p class="cargo-persona">Field Technician</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script src="carousel.js"></script>
+</body>
+
+</html>
